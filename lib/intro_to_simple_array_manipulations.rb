@@ -30,7 +30,9 @@ def using_insert(array, element)
   array[5].insert(element)
 end
 
-def using_uniq
+def using_uniq(array)
+  return array.uniq
+
 end
 
 def using_flatten
